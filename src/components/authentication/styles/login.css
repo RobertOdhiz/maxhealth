@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container,
+  .signup-container {
+    padding: 20px; /* Added padding */
+    border: 1px solid #ccc; /* Added border */
+    border-radius: 5px;
+    width: 300px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    gap: 1em;
+    flex-direction: column;
+  }
+  
+  .form-container {
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  input {
+    padding: .5em .75em;
+    margin-right: 8px;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    font-family: inherit;
+  }
+
+  .fields {
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .or-txt {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+  }
+  
+  .or-txt hr {
+    flex-grow: 1; 
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin: 0 10px;
+  }
+  
+  .oauth-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    /* Add your OAuth button styles here */
+  }
+  
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .d-in {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+  }

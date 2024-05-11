@@ -1,0 +1,109 @@
+.checkout-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .checkout-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: .75em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .checkout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-header h2 {
+    margin: 0;
+  }
+
+  
+  .navigation {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 1em;
+    border-bottom: 1px solid blue;
+  }
+  
+  .checkout-type-btn {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-type-btn.active {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .pickup-options,
+  .delivery-options {
+    display: flex;
+    align-items: left;
+    gap: 1em;
+    flex-direction: column;
+  }
+  
+  .pickup-options label,
+  .delivery-options label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .pickup-options select,
+  .delivery-options input[type='text'] {
+    width: 100%;
+    padding: .5em .75em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+  }
+  
+  .payment-options {
+    display: flex;
+    align-items: left;
+    gap: 1em;
+    flex-direction: column;
+  }
+  
+  .confirm-details {
+    margin-bottom: 20px;
+  }
+  
+  .confirm-btn {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: inherit;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #0056b3;
+  }
+  

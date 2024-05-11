@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+  
+.btn {
+  background-color: blue;
+  border: 1px solid blue;
+  color: #fff;
+  padding: .5em .75em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-family: inherit;
+}
+
+.btn-t {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: .5em .75em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+}
+
+.btn-t:hover {
+  background-color: rgb(43, 43, 255);
+}
+
+/*  */
+
+i {
+  margin-right: 1em;
+  font-size: 1.5em;
+  padding-right: 1em;
+  color: black;
+}
+
+
+/* button:disabled {
+  background-color: #006b96;
+  cursor: not-allowed;
+} */
+

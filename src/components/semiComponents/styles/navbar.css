@@ -1,0 +1,149 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    height: 4em;
+    backdrop-filter:blur(.25em);
+    padding: .5em;
+    background-color: rgba(0, 0, 255, 0.452);
+  }
+  
+  nav input {
+    padding: .5em .75em;
+    margin-right: 8px;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 500px;
+    font-family: inherit;
+  }
+  
+  nav label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    flex-wrap: nowrap;
+  }
+  
+  nav label button {
+    background-color: rgb(0, 183, 255);
+    padding: 4px 8px;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-style: inherit;
+  }
+  
+  nav input:focus {
+    border: 2px solid rgb(0, 183, 255);
+  }
+  
+  nav .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .nav-menu ul li {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  nav .nav-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .search-results {
+    position: absolute; /* Keep absolute positioning */
+    top: calc(100% + 5px); /* Position results slightly below the search bar */
+    width: 30%; /* Adjust width as needed */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1em;
+    z-index: 999;
+    overflow: auto;
+  }
+  
+  .search-results div:not(:last-child) {
+    border-bottom: 1px solid grey; /* Add grey border between search result items */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: .25em;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav ul li {
+    padding: .5em .75em;
+    background-color: transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    position: relative;
+    color: white;
+  }
+  
+  nav ul li:hover {
+    background-color: rgba(128, 128, 128, 0.26);
+  }
+  
+  .cart-items-count {
+    position: absolute;
+    height: 2em;
+    width: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+    border-radius: 50%;
+    background-color: #29bcf7;
+    color: white;
+    font-size: 12px;
+  }
+  
+  nav i {
+    color: black;
+  }
+ 
+  nav ul li:hover .profile-options,
+  nav ul li:hover .help-options {
+    display: block;
+  }
+  
+  .profile-options,
+  .help-options {
+    position: absolute;
+    left: 0;
+    width: 100%; 
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: none;
+}  
