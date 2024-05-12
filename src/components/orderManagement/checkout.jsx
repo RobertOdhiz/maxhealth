@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './styles/checkout.css'
 
-const CheckoutPopup = () => {
+const CheckoutPopup = ({ onClose }) => {
     const [isPickup, setIsPickup] = useState(true);
     const [deliveryPoint, setDeliveryPoint] = useState('');
     const [pickupOffice, setPickupOffice] = useState('');
@@ -27,6 +27,7 @@ const CheckoutPopup = () => {
             <div className="checkout-content">
                 <div className="checkout-header">
                     <h2>Checkout</h2>
+                    <button className="close-btn" onClick={onClose}>×</button>
                 </div>
                 <div className="navigation">
                     <button className={`checkout-type-btn ${isPickup ? 'active' : ''}`} onClick={toggleCheckoutType}>Pickup</button>

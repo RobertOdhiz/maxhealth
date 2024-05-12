@@ -28,7 +28,7 @@
     gap: 1em;
   }
   
-  input {
+ .form-container input {
     padding: .5em .75em;
     margin-right: 8px;
     outline: 0;

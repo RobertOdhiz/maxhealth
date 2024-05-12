@@ -13,17 +13,26 @@
 
 .cart-items {
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
+    gap: 2em;
 }
 
 .cart-items {
     width: 75%;
     margin: 0 auto;
   }
-  
+.cart-item input {
+    padding: .5em .75em;
+    margin-right: 8px;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: inherit;
+}
   table {
     width: 100%;
     border-collapse: collapse;

@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import './styles/carousel.css';
-import PlaceHolder from '../../assets/placeholder.jpg';
 import Delivery from '../../assets/free-delivery.svg';
 import Payment from '../../assets/payment.svg'
 import Watch from '../../assets/watch.jpg'

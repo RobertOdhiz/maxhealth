@@ -58,7 +58,9 @@ function Landing() {
 
   return (
     <div className='home'>
+      <div>
       <HeroSection />
+      </div>
       {Items.map(category => (
         <div key={category.id} className='home-container'>
           <h2 className='category-title'>{category.category}</h2>
